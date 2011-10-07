@@ -1,0 +1,47 @@
+/*
+  Welcome to Compass.
+  In this file you should write your main styles. (or centralize your imports)
+  Import this file using the following HTML or equivalent:
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+@import compass_twitter_bootstrap
+
+$blue: rgb(72,106,143)
+$linkColor: $blue
+
+a
+  color: $linkColor
+
+#container
+  +fixed-container
+
+header
+  margin-top: 150px
+  h1
+    +columns(15)
+    +center-block
+  h2
+    +columns(6)
+    +center-block
+    margin-top: 20px
+    margin-bottom: 20px
+    color: $grayLight
+    strong
+      color: $blue
+
+#content
+  +columns(15)
+  +center-block
+  section
+    +columns(6)
+    float: right
+    ul 
+      margin-left: 3px
+      li
+        list-style-type: none
+  +clearfix
+
+footer
+  color: $grayLight
+  small.copyright
+    float: right

@@ -1,0 +1,55 @@
+!!! 5
+%html
+  %head
+    %title 30 Cubits - Building awesome software.
+    %link{:href => '/stylesheets/screen.css', :media => 'all', :rel => 'stylesheet', :type => 'text/css'}
+    %script{:src => 'https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js', :type => 'text/javascript'}
+    %script{:src => '/javascripts/application.js', :type => 'text/javascript'}
+  %body
+    #container
+      %header.page-header
+        %hgroup
+          %h1
+            %img{:src => '/images/logo-large.png', :alt => '30 Cubits'}
+          %h2
+            Building
+            %strong awesome
+            software.
+
+      #content
+        %section
+          %h1 Contact
+          %ul
+            %li
+              %h2
+                %a{:href => 'mailto:joey@30cubits.com'} joey@30cubits.com
+            %li
+              %h2
+                %a{:href => 'http://twitter.com/30cubits'} @30cubits
+            %li
+              &nbsp;
+            %li
+              %h2
+                %a{:href => 'http://joeybeninghove.com'} joeybeninghove.com
+            %li
+              %h2
+                %a{:href => 'http://twitter.com/joeybeninghove'} @joeybeninghove
+        %section
+          %h1 Projects
+          %ul
+            %li 
+              %h2
+                %a{:href => 'http://castingcode.tv'} CastingCode.tv
+            %li 
+              %h2
+                %a{:href => 'http://codertalkshow.com'} Coder Talk
+            %li 
+              %h2
+                %a{:href => 'http://vimconf.org'} VimConf
+
+      %footer
+        %small 
+          powered by 
+          %a{:href => 'https://github.com/joeybeninghove/fun'} fun
+        %small.copyright
+          Copyright &copy; 2011 30 Cubits, LLC
