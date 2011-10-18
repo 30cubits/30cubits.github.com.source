@@ -3115,14 +3115,15 @@ header h2 strong {
 }
 /* line 35, ../../app/stylesheets/screen.sass */
 #content section {
-  width: 340px;
-  float: right;
+  width: 310px;
+  float: left;
+  margin-left: 125px;
 }
-/* line 38, ../../app/stylesheets/screen.sass */
+/* line 39, ../../app/stylesheets/screen.sass */
 #content section ul {
   margin-left: 3px;
 }
-/* line 40, ../../app/stylesheets/screen.sass */
+/* line 41, ../../app/stylesheets/screen.sass */
 #content section ul li {
   list-style-type: none;
 }
@@ -3136,11 +3137,11 @@ header h2 strong {
   clear: both;
 }
 
-/* line 44, ../../app/stylesheets/screen.sass */
+/* line 45, ../../app/stylesheets/screen.sass */
 footer {
   color: #bfbfbf;
 }
-/* line 46, ../../app/stylesheets/screen.sass */
+/* line 47, ../../app/stylesheets/screen.sass */
 footer small.copyright {
   float: right;
 }
